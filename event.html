@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/output.css">
+    <script src="https://kit.fontawesome.com/61b1a26033.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="">
+        <div class="container flex justify-between !my-0 !py-2">
+            <a href="/" class="text-4xl font-semibold">
+                <img class="md:w-[200px] w-[100px]" src="./image/logo.png" alt="">
+            </a>
+            <nav id="sidebar" class="flex items-center gap-4">
+                <div id="cross_icon" class="md:hidde absolute top-[20px] right-[20px] cursor-pointer text-2xl">
+                    ✕
+                </div>
+                <a href="/" class="hover:underline">Home</a>
+                <a href="/event.html" class="hover:underline">Event</a>
+                <a href="#" class="hover:underline">Member</a>
+                <a href="#" class="hover:underline">Executive Committee</a>
+                <a href="/blog.html" class="hover:underline">Blog</a>
+                <a href="/signin.html" class="bg-red-500 text-white py-2 px-6 rounded-md font-medium">Join Us</a>
+            </nav>
+            <div id="menu_icon" class="md:hidden flex gap-1 items-center flex-col justify-center cursor-pointer">
+                <span class="w-[20px] h-[2px] bg-black"></span>
+                <span class="w-[20px] h-[2px] bg-black"></span>
+                <span class="w-[20px] h-[2px] bg-black"></span>
+            </div>
+        </div>
+    </header>
+
+    <section id="event" class="container">
+        <div class="title">Upcoming Events</div>
+        <div class="cards grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+            <div class="card md:hover:shadow-md bg-gray-100 rounded-md">
+                <div class="block rounded-lg p-4 shadow-sm shadow-indigo-100">
+                    <img alt="Home" src="./image/event-1.avif" class="h-56 w-full rounded-md object-cover" />
+
+                    <div class="mt-4">
+                        <dl>
+
+                            <div>
+                                <dt class="sr-only">Title</dt>
+                                <dd class="font-medium text-lg">Lorem ipsum dolor sit amet consectetur.</dd>
+                            </div>
+                            <div class="mt-2">
+                                <dt class="sr-only">Description</dt>
+
+                                <dd class="text-sm text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit. Vel officiis sequi harum.</dd>
+                            </div>
+                        </dl>
+
+                        <div class="mt-6 flex items-center gap-8 text-xs">
+                            <div class="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
+                                <svg class="h-4 w-4 text-indigo-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+                                </svg>
+
+                                <div class="mt-1.5 sm:mt-0">
+                                    <p class="text-gray-500">Team</p>
+
+                                    <p class="font-medium">2 members</p>
+                                </div>
+                            </div>
+
+                            <div class="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
+                                <svg class="h-4 w-4 text-indigo-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                                </svg>
+
+                                <div class="mt-1.5 sm:mt-0">
+                                    <p class="text-gray-500">Location</p>
+
+                                    <p class="font-medium">Cuet CSE Building</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card md:hover:shadow-md bg-gray-100 rounded-md">
+                <div class="block rounded-lg p-4 shadow-sm shadow-indigo-100">
+                    <img alt="Home" src="./image/event-2.avif" class="h-56 w-full rounded-md object-cover" />
+
+                    <div class="mt-4">
+                        <dl>
+
+                            <div>
+                                <dt class="sr-only">Title</dt>
+                                <dd class="font-medium text-lg">Lorem ipsum dolor sit amet consectetur.</dd>
+                            </div>
+                            <div class="mt-2">
+                                <dt class="sr-only">Description</dt>
+
+                                <dd class="text-sm text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit. Vel officiis sequi harum.</dd>
+                            </div>
+                        </dl>
+
+                        <div class="mt-6 flex items-center gap-8 text-xs">
+                            <div class="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
+                                <svg class="h-4 w-4 text-indigo-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+                                </svg>
+
+                                <div class="mt-1.5 sm:mt-0">
+                                    <p class="text-gray-500">Team</p>
+
+                                    <p class="font-medium">2 members</p>
+                                </div>
+                            </div>
+
+                            <div class="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
+                                <svg class="h-4 w-4 text-indigo-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                                </svg>
+
+                                <div class="mt-1.5 sm:mt-0">
+                                    <p class="text-gray-500">Location</p>
+
+                                    <p class="font-medium">Cuet CSE Building</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card md:hover:shadow-md bg-gray-100 rounded-md">
+                <div class="block rounded-lg p-4 shadow-sm shadow-indigo-100">
+                    <img alt="Home" src="./image/event-1.avif" class="h-56 w-full rounded-md object-cover" />
+
+                    <div class="mt-4">
+                        <dl>
+
+                            <div>
+                                <dt class="sr-only">Title</dt>
+                                <dd class="font-medium text-lg">Lorem ipsum dolor sit amet consectetur.</dd>
+                            </div>
+                            <div class="mt-2">
+                                <dt class="sr-only">Description</dt>
+
+                                <dd class="text-sm text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit. Vel officiis sequi harum.</dd>
+                            </div>
+                        </dl>
+
+                        <div class="mt-6 flex items-center gap-8 text-xs">
+                            <div class="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
+                                <svg class="h-4 w-4 text-indigo-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+                                </svg>
+
+                                <div class="mt-1.5 sm:mt-0">
+                                    <p class="text-gray-500">Team</p>
+
+                                    <p class="font-medium">2 members</p>
+                                </div>
+                            </div>
+
+                            <div class="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
+                                <svg class="h-4 w-4 text-indigo-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                                </svg>
+
+                                <div class="mt-1.5 sm:mt-0">
+                                    <p class="text-gray-500">Location</p>
+
+                                    <p class="font-medium">Cuet CSE Building</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card md:hover:shadow-md bg-gray-100 rounded-md">
+                <div class="block rounded-lg p-4 shadow-sm shadow-indigo-100">
+                    <img alt="Home" src="./image/event-2.avif" class="h-56 w-full rounded-md object-cover" />
+
+                    <div class="mt-4">
+                        <dl>
+
+                            <div>
+                                <dt class="sr-only">Title</dt>
+                                <dd class="font-medium text-lg">Lorem ipsum dolor sit amet consectetur.</dd>
+                            </div>
+                            <div class="mt-2">
+                                <dt class="sr-only">Description</dt>
+
+                                <dd class="text-sm text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit. Vel officiis sequi harum.</dd>
+                            </div>
+                        </dl>
+
+                        <div class="mt-6 flex items-center gap-8 text-xs">
+                            <div class="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
+                                <svg class="h-4 w-4 text-indigo-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+                                </svg>
+
+                                <div class="mt-1.5 sm:mt-0">
+                                    <p class="text-gray-500">Team</p>
+
+                                    <p class="font-medium">2 members</p>
+                                </div>
+                            </div>
+
+                            <div class="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
+                                <svg class="h-4 w-4 text-indigo-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                                </svg>
+
+                                <div class="mt-1.5 sm:mt-0">
+                                    <p class="text-gray-500">Location</p>
+
+                                    <p class="font-medium">Cuet CSE Building</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card md:hover:shadow-md bg-gray-100 rounded-md">
+                <div class="block rounded-lg p-4 shadow-sm shadow-indigo-100">
+                    <img alt="Home" src="./image/event-1.avif" class="h-56 w-full rounded-md object-cover" />
+
+                    <div class="mt-4">
+                        <dl>
+
+                            <div>
+                                <dt class="sr-only">Title</dt>
+                                <dd class="font-medium text-lg">Lorem ipsum dolor sit amet consectetur.</dd>
+                            </div>
+                            <div class="mt-2">
+                                <dt class="sr-only">Description</dt>
+
+                                <dd class="text-sm text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit. Vel officiis sequi harum.</dd>
+                            </div>
+                        </dl>
+
+                        <div class="mt-6 flex items-center gap-8 text-xs">
+                            <div class="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
+                                <svg class="h-4 w-4 text-indigo-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+                                </svg>
+
+                                <div class="mt-1.5 sm:mt-0">
+                                    <p class="text-gray-500">Team</p>
+
+                                    <p class="font-medium">2 members</p>
+                                </div>
+                            </div>
+
+                            <div class="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
+                                <svg class="h-4 w-4 text-indigo-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                                </svg>
+
+                                <div class="mt-1.5 sm:mt-0">
+                                    <p class="text-gray-500">Location</p>
+
+                                    <p class="font-medium">Cuet CSE Building</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card md:hover:shadow-md bg-gray-100 rounded-md">
+                <div class="block rounded-lg p-4 shadow-sm shadow-indigo-100">
+                    <img alt="Home" src="./image/event-2.avif" class="h-56 w-full rounded-md object-cover" />
+
+                    <div class="mt-4">
+                        <dl>
+
+                            <div>
+                                <dt class="sr-only">Title</dt>
+                                <dd class="font-medium text-lg">Lorem ipsum dolor sit amet consectetur.</dd>
+                            </div>
+                            <div class="mt-2">
+                                <dt class="sr-only">Description</dt>
+
+                                <dd class="text-sm text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit. Vel officiis sequi harum.</dd>
+                            </div>
+                        </dl>
+
+                        <div class="mt-6 flex items-center gap-8 text-xs">
+                            <div class="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
+                                <svg class="h-4 w-4 text-indigo-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+                                </svg>
+
+                                <div class="mt-1.5 sm:mt-0">
+                                    <p class="text-gray-500">Team</p>
+
+                                    <p class="font-medium">2 members</p>
+                                </div>
+                            </div>
+
+                            <div class="sm:inline-flex sm:shrink-0 sm:items-center sm:gap-2">
+                                <svg class="h-4 w-4 text-indigo-700" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                                </svg>
+
+                                <div class="mt-1.5 sm:mt-0">
+                                    <p class="text-gray-500">Location</p>
+
+                                    <p class="font-medium">Cuet CSE Building</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-gray-100">
+        <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+            <a href="/" class="text-4xl font-semibold flex justify-center">
+                <img class="md:w-[200px] w-[100px]" src="./image/logo.png" alt="">
+            </a>
+
+            <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+                consequuntur amet culpa cum itaque neque.
+            </p>
+
+            <ul class="mt-8 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
+                <li>
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/blog.html">
+                        Blog
+                    </a>
+                </li>
+
+                <li>
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/event.html">
+                        Event
+                    </a>
+                </li>
+
+                <li>
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        Projects
+                    </a>
+                </li>
+            </ul>
+
+            <div class="flex justify-center gap-4 mt-5">
+                <a href=""
+                    class="border border-gray-400 h-[30px] aspect-square flex items-center justify-center rounded-full">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href=""
+                    class="border border-gray-400 h-[30px] aspect-square flex items-center justify-center rounded-full">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href=""
+                    class="border border-gray-400 h-[30px] aspect-square flex items-center justify-center rounded-full">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a href=""
+                    class="border border-gray-400 h-[30px] aspect-square flex items-center justify-center rounded-full">
+                    <i class="fa fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+<script type="text/javascript" src="index.js"></script>
+
+</html>
