@@ -1187,10 +1187,6 @@ html{
   scroll-behavior: smooth;
 }
 
-#banner{
-  background: url('../image/event-1.avif') center no-repeat;
-}
-
 .container{
   max-width: 1300px;
   margin: 1rem auto;
