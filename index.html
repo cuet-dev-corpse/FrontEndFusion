@@ -6,35 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/output.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
     <script src="https://kit.fontawesome.com/61b1a26033.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <header class="">
-        <div class="container flex justify-between !my-0 !py-2">
-            <a href="/" class="text-4xl font-semibold">
-                <img class="md:w-[200px] w-[100px]" src="./image/logo.png" alt="">
-            </a>
-            <nav id="sidebar" class="flex items-center gap-4">
-                <div id="cross_icon" class="md:hidde absolute top-[20px] right-[20px] cursor-pointer text-2xl">
-                    ✕
-                </div>
-                <a href="/" class="hover:underline">Home</a>
-                <a href="/event.html" class="hover:underline">Event</a>
-                <a href="#" class="hover:underline">Member</a>
-                <a href="#" class="hover:underline">Executive Committee</a>
-                <a href="/blog.html" class="hover:underline">Blog</a>
-                <a href="/signin.html" class="bg-red-500 text-white py-2 px-6 rounded-md font-medium">Join Us</a>
-            </nav>
-            <div id="menu_icon" class="md:hidden flex gap-1 items-center flex-col justify-center cursor-pointer">
-                <span class="w-[20px] h-[2px] bg-black"></span>
-                <span class="w-[20px] h-[2px] bg-black"></span>
-                <span class="w-[20px] h-[2px] bg-black"></span>
-            </div>
-        </div>
-    </header>
+    <div id="nav-component"></div>
 
     <!--
   Heads up! 👋
@@ -42,9 +20,8 @@
   This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
 -->
 
-    <section
-        id="banner"
-        class="relative bg-[url(image/event-1.avif)] mx-h-[80vh] overflow-hidden bg-cover bg-center bg-no-repeat mb-12">
+    <section id="banner"
+        class="relative bg-[url(../image/event-1.avif)] bg-s mx-h-[80vh] overflow-hidden bg-cover bg-center bg-no-repeat mb-12">
         <div style="background: linear-gradient(90deg, black, transparent);"
             class="absolute bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 top-0 left-0 h-full md:w-[60%] w-[100%] ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l">
         </div>
@@ -221,7 +198,7 @@
                             Molestias explicabo corporis voluptatem?
                         </p>
 
-                        <a href="/single_blog.html"
+                        <a href="single_blog.html"
                             class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
                             Read More
                             <span aria-hidden="true" class="block transition-all group-hover:ms-0.5 rtl:rotate-180">
@@ -253,7 +230,7 @@
                             Molestias explicabo corporis voluptatem?
                         </p>
 
-                        <a href="/single_blog.html"
+                        <a href="single_blog.html"
                             class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
                             Read More
                             <span aria-hidden="true" class="block transition-all group-hover:ms-0.5 rtl:rotate-180">
@@ -285,7 +262,7 @@
                             Molestias explicabo corporis voluptatem?
                         </p>
 
-                        <a href="/single_blog.html"
+                        <a href="single_blog.html"
                             class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600">
                             Read More
                             <span aria-hidden="true" class="block transition-all group-hover:ms-0.5 rtl:rotate-180">
@@ -296,7 +273,7 @@
                 </article>
             </div>
         </div>
-        <a href="/blog.html"
+        <a href="blog.html"
             class="py-2 text-sm px-8 rounded-md bg-indigo-500 text-white inline-grid my-8 font-medium cursor-pointer">Show
             All
         </a>
@@ -408,79 +385,13 @@
                 </div>
             </div>
         </div>
-        <a href="/event.html"
+        <a href="event.html"
             class="py-2 text-sm px-8 rounded-md bg-indigo-500 text-white inline-grid my-8 font-medium cursor-pointer">Show
             All
         </a>
     </section>
 
-
-    <footer class="bg-gray-100">
-        <div class="mx-auto max-w-5xl px-4 py-14 sm:px-6 lg:px-8">
-            <a href="/" class="text-4xl font-semibold flex justify-center">
-                <img class="md:w-[200px] w-[100px]" src="./image/logo.png" alt="">
-            </a>
-
-            <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-                consequuntur amet culpa cum itaque neque.
-            </p>
-
-            <ul class="mt-8 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
-                <li>
-                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                        Home
-                    </a>
-                </li>
-
-                <li>
-                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/blog.html">
-                        Blog
-                    </a>
-                </li>
-
-                <li>
-                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/event.html">
-                        Event
-                    </a>
-                </li>
-
-                <li>
-                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                        Services
-                    </a>
-                </li>
-
-                <li>
-                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                        Projects
-                    </a>
-                </li>
-            </ul>
-
-            <div class="flex justify-center gap-4 mt-5">
-                <a href=""
-                    class="border border-gray-400 h-[30px] aspect-square flex items-center justify-center rounded-full">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href=""
-                    class="border border-gray-400 h-[30px] aspect-square flex items-center justify-center rounded-full">
-                    <i class="fa fa-twitter"></i>
-                </a>
-                <a href=""
-                    class="border border-gray-400 h-[30px] aspect-square flex items-center justify-center rounded-full">
-                    <i class="fa fa-linkedin"></i>
-                </a>
-                <a href=""
-                    class="border border-gray-400 h-[30px] aspect-square flex items-center justify-center rounded-full">
-                    <i class="fa fa-youtube"></i>
-                </a>
-            </div>
-        </div>
-        <div class="text-center font-medium text-sm py-3">
-            Made with ♥ by HTML to hack NASA © 2023
-        </div>
-    </footer>
+    <div id="footer-component"></div>
 </body>
 
 

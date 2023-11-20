@@ -11,30 +11,8 @@
 </head>
 
 <body>
-    <header class="">
-        <div class="container flex justify-between !my-0 !py-2">
-            
-            <a href="/" class="text-4xl font-semibold flex justify-center">
-                <img class="md:w-[200px] w-[100px]" src="./image/logo.png" alt="">
-            </a>
-            <nav id="sidebar" class="flex items-center gap-4">
-                <div id="cross_icon" class="md:hidde absolute top-[20px] right-[20px] cursor-pointer text-2xl">
-                    ✕
-                </div>
-                <a href="/" class="hover:underline">Home</a>
-                <a href="/event.html" class="hover:underline">Event</a>
-                <a href="#" class="hover:underline">Member</a>
-                <a href="#" class="hover:underline">Executive Committee</a>
-                <a href="/blog.html" class="hover:underline">Blog</a>
-                <a href="/signin.html" class="bg-red-500 text-white py-2 px-6 rounded-md font-medium">Join Us</a>
-            </nav>
-            <div id="menu_icon" class="md:hidden flex gap-1 items-center flex-col justify-center cursor-pointer">
-                <span class="w-[20px] h-[2px] bg-black"></span>
-                <span class="w-[20px] h-[2px] bg-black"></span>
-                <span class="w-[20px] h-[2px] bg-black"></span>
-            </div>
-        </div>
-    </header>
+
+    <div id="nav-component"></div>
 
     <!--
   Heads up! 👋
@@ -99,7 +77,7 @@
 
                 <p class="text-center text-sm text-gray-500">
                     No account?
-                    <a class="underline text-blue-500" href="/signup.html">Sign up</a>
+                    <a class="underline text-blue-500" href="signup.html">Sign up</a>
                 </p>
             </form>
         </div>
@@ -107,70 +85,7 @@
 
 
 
-    <footer class="bg-gray-100">
-        <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <a href="/" class="text-4xl font-semibold text-center">Fofana<span
-                        class="text-bold font-bold text-red-500">.</span></a>
-            </div>
-
-            <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-                consequuntur amet culpa cum itaque neque.
-            </p>
-
-            <ul class="mt-8 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
-                <li>
-                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                        Home
-                    </a>
-                </li>
-
-                <li>
-                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/blog.html">
-                        Blog
-                    </a>
-                </li>
-
-                <li>
-                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/event.html">
-                        Event
-                    </a>
-                </li>
-
-                <li>
-                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                        Services
-                    </a>
-                </li>
-
-                <li>
-                    <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                        Projects
-                    </a>
-                </li>
-            </ul>
-
-            <div class="flex justify-center gap-4 mt-5">
-                <a href=""
-                    class="border border-gray-400 h-[30px] aspect-square flex items-center justify-center rounded-full">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href=""
-                    class="border border-gray-400 h-[30px] aspect-square flex items-center justify-center rounded-full">
-                    <i class="fa fa-twitter"></i>
-                </a>
-                <a href=""
-                    class="border border-gray-400 h-[30px] aspect-square flex items-center justify-center rounded-full">
-                    <i class="fa fa-linkedin"></i>
-                </a>
-                <a href=""
-                    class="border border-gray-400 h-[30px] aspect-square flex items-center justify-center rounded-full">
-                    <i class="fa fa-youtube"></i>
-                </a>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-component"></div>
 </body>
 
 <script type="text/javascript" src="index.js"></script>

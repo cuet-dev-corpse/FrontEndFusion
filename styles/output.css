@@ -934,8 +934,8 @@ video {
   background-color: rgb(255 255 255 / 0.75);
 }
 
-.bg-\[url\(image\/event-1\.avif\)\] {
-  background-image: url(image/event-1.avif);
+.bg-\[url\(\.\.\/image\/event-1\.avif\)\] {
+  background-image: url(../image/event-1.avif);
 }
 
 .bg-cover {
